@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Bear Web Designs</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="img/fav.png" />
+
+  <!-- Meta Pixel: paste the pixel snippet here, with fbq('track', 'Lead') after PageView -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root { --ink: #0a0a0a; --line-d: #2a2a2a; --honey: #f5b03c; --honey-dark: #e09a22; --muted: #5f5f66; --muted-d: #a3a3a8; --paper: #f5f4f1; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif; color: var(--ink); background: var(--paper);
+      min-height: 100vh; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 20px; }
+    header { background: var(--ink); border-bottom: 1px solid var(--line-d); }
+    header .wrap { height: 76px; display: flex; align-items: center; }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: #fff; }
+    .brand img { height: 40px; width: auto; mix-blend-mode: screen; }
+    .brand .wm { display: flex; flex-direction: column; line-height: 1; }
+    .brand .wm b { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: .14em; }
+    .brand .wm span { font-size: 9.5px; font-weight: 700; letter-spacing: .34em; color: var(--muted-d); margin-top: 5px; }
+    main { flex: 1; display: grid; place-items: center; padding: 60px 20px; }
+    .box { background: #fff; border-top: 5px solid var(--honey); border-radius: 18px; padding: 48px 36px; max-width: 560px; text-align: center; box-shadow: 0 30px 60px -30px rgba(0,0,0,.3); }
+    .check { width: 72px; height: 72px; border-radius: 50%; background: #fff4e0; color: var(--honey-dark); display: grid; place-items: center; margin: 0 auto 24px; }
+    .check svg { width: 36px; height: 36px; }
+    h1 { font-family: 'Montserrat', sans-serif; font-weight: 900; letter-spacing: -.03em; font-size: clamp(30px, 5vw, 40px); line-height: 1.05; margin-bottom: 14px; }
+    p { color: var(--muted); font-size: 17px; line-height: 1.6; margin-bottom: 28px; }
+    .back { display: inline-flex; align-items: center; gap: 8px; background: var(--ink); color: #fff; font-weight: 700; text-decoration: none; padding: 15px 26px; border-radius: 10px; }
+    .back:hover { background: #222; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a href="index.html" class="brand" aria-label="Bear Web Designs home">
+        <img src="img/mark.png" alt="" width="600" height="503" />
+        <span class="wm"><b>BEAR</b><span>WEB DESIGNS</span></span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="box">
+      <div class="check">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+      </div>
+      <h1>You're in. Let's build your site.</h1>
+      <p>Thanks for reaching out. We'll be in touch within one business day to chat about your business and plan your free website build. Remember: you only pay once it's finished and you're happy.</p>
+      <a href="index.html" class="back">&larr; Back to the page</a>
+    </div>
+  </main>
+</body>
+</html>
